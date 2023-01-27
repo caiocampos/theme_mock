@@ -2,7 +2,11 @@
   "name": "theme_mock",
   "version": "1.0.0",
   "description": "Repo de Mock para tokens do DS",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "build": "tsc -p .",
     "test": "npm run build"
