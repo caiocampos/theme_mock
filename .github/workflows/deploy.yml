@@ -35,6 +35,7 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@4.1.5
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+        repository-name: caiocampos/theme_mock/
         branch: build
         folder: build
         clean: true
