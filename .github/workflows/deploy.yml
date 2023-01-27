@@ -28,7 +28,8 @@ jobs:
       run: npm run build
     - name: Adjustment
       run: |
-           cp -R dist build/dist
+           mkdir build
+           cp -R dist build
            cp package.json build/package.json
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.5
