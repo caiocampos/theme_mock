@@ -1,51 +1,54 @@
-const consultoriaDeBeleza_light_controlls = {
-    color:{
-        "neutral50": "#f8f9fa",
-        "neutral100": "#f1f3f5",
-        "neutral200": "#e9ecef",
-        "neutral300": "#dee2e6",
-        "neutral400": "#ced4da",
-        "neutral500": "#adb5bd",
-        "neutral600": "#868e96",
-        "neutral700": "#495057",
-        "neutral800": "#343a40",
-        "neutral900": "#212529",
-        "primary": "#F6BE00",
-        "onPrimary": "#000000",
-        "primaryLight": "#F9D24D",
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.natura_v2_dark_full_theme = void 0;
+const natura_v2_dark_controlls = {
+    color: {
+        "neutral50": "#212529",
+        "neutral100": "#343a40",
+        "neutral200": "#495057",
+        "neutral300": "#868e96",
+        "neutral400": "#adb5bd",
+        "neutral500": "#ced4da",
+        "neutral600": "#dee2e6",
+        "neutral700": "#e9ecef",
+        "neutral800": "#f1f3f5",
+        "neutral900": "#f8f9fa",
+        "primary": "#EB6619",
+        "onPrimary": "#FFFFFF",
+        "primaryLight": "#F29966",
         "onPrimaryLight": "#000000",
-        "primaryLightest": "#FBE599",
+        "primaryLightest": "#F8CCB2",
         "onPrimaryLightest": "#000000",
-        "primaryDark": "#C59800",
+        "primaryDark": "#A0430E",
         "onPrimaryDark": "#FFFFFF",
-        "primaryDarkest": "#947200",
+        "primaryDarkest": "#502207",
         "onPrimaryDarkest": "#FFFFFF",
-        "secondary": "#9F81FD",
-        "onSecondary": "#000000",
-        "secondaryLight": "#BCA7FE",
-        "onSecondaryLight": "#000000",
-        "secondarylightest": "#D9CDFE",
-        "onSecondarylightest": "#000000",
-        "secondaryDark": "#7F67CA",
-        "onSecondaryDark": "#000000",
-        "secondaryDarkest": "#5F4D98",
+        "secondary": "#263F30",
+        "onSecondary": "#FFFFFF",
+        "secondaryLight": "#599471",
+        "onSecondaryLight": "#FFFFFF",
+        "secondaryLightest": "#AACCB7",
+        "onSecondaryLightest": "#000000",
+        "secondaryDark": "#192A20",
+        "onSecondaryDark": "#FFFFFF",
+        "secondaryDarkest": "#0D1510",
         "onSecondaryDarkest": "#FFFFFF",
-        "background": "#fafafa",
-        "onBackground": "#333333",
-        "surface": "#ffffff",
-        "onSurface": "#333333",
-        "highlight": "#000000",
-        "highEmphasis": "#333333",
-        "mediumEmphasis": "#777777",
-        "lowEmphasis": "#bbbbbb",
-        "link": "#227bbd",
-        "onLink": "#ffffff",
-        "success": "#569a32",
-        "onSuccess": "#ffffff",
-        "warning": "#fcc433",
-        "onWarning": "#000000",    
-        "alert": "#e74627",
-        "onAlert": "#ffffff"
+        "background": "#121212",
+        "onBackground": "#ffffff",
+        "surface": "#333333",
+        "onSurface": "#ffffff",
+        "highlight": "#ffffff",
+        "highEmphasis": "#fafafa",
+        "mediumEmphasis": "#bbbbbb",
+        "lowEmphasis": "#777777",
+        "link": "#86D6FB",
+        "onLink": "#000000",
+        "success": "#BCDEA2",
+        "onSuccess": "#000000",
+        "warning": "#FEF59E",
+        "onWarning": "#000000",
+        "alert": "#FFAA96",
+        "onAlert": "#000000"
     },
     "typography": {
         "fontSize": {
@@ -77,7 +80,7 @@ const consultoriaDeBeleza_light_controlls = {
         "fontFamily": {
             "primary": "Roboto",
             "secondary": "sans-serif",
-            "branding": "Roboto",
+            "branding": "Helvetica Now Text",
             "code": "Roboto Mono"
         },
         "fontWeight": {
@@ -85,20 +88,20 @@ const consultoriaDeBeleza_light_controlls = {
             "medium": 500
         },
         "display": {
-            "fontFamily": "Roboto",
+            "fontFamily": "Helvetica Now Display",
             "fontWeight": 700
         },
         "headline": {
-            "fontFamily": "Roboto",
+            "fontFamily": "Helvetica Now Display",
             "fontWeight": 500
         },
         "body": {
             "regular": {
-                "fontFamily": "Roboto",
+                "fontFamily": "Helvetica Now Text",
                 "fontWeight": 400
             },
             "bold": {
-                "fontFamily": "Roboto",
+                "fontFamily": "Helvetica Now Text",
                 "fontWeight": 700
             }
         },
@@ -107,11 +110,8 @@ const consultoriaDeBeleza_light_controlls = {
             "fontWeight": 400
         }
     },
-    
-}
-
-export const consultoriaDeBeleza_light_full_theme = 
-{
+};
+exports.natura_v2_dark_full_theme = {
     "borderRadius": {
         "none": 0,
         "small": 2,
@@ -124,11 +124,11 @@ export const consultoriaDeBeleza_light_full_theme =
             "letterSpacing": 0.24,
             "lineHeight": 1.5,
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 500
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             }
         },
@@ -137,11 +137,11 @@ export const consultoriaDeBeleza_light_full_theme =
             "letterSpacing": 0.51,
             "lineHeight": 1.5,
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 400
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             }
         },
@@ -153,11 +153,11 @@ export const consultoriaDeBeleza_light_full_theme =
             "letterSpacing": 0.24,
             "lineHeight": 1.25,
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 500
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             }
         }
@@ -194,16 +194,16 @@ export const consultoriaDeBeleza_light_full_theme =
             "borderRadius": 44
         },
         "primary": {
-            "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+            "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
             "fontWeight": 400
         },
         "fallback": {
-            "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+            "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
             "fontWeight": 400
         },
         "color": {
-            "background": consultoriaDeBeleza_light_controlls.color.primary,
-            "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+            "background": natura_v2_dark_controlls.color.primary,
+            "label": natura_v2_dark_controlls.color.highEmphasis
         }
     },
     "badge": {
@@ -212,11 +212,11 @@ export const consultoriaDeBeleza_light_full_theme =
             "letterSpacing": 0.38,
             "lineHeight": 1.5,
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 400
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             }
         },
@@ -230,20 +230,20 @@ export const consultoriaDeBeleza_light_full_theme =
         },
         "color": {
             "primary": {
-                "label": consultoriaDeBeleza_light_controlls.color.highEmphasis,
-                "background": consultoriaDeBeleza_light_controlls.color.primary
+                "label": natura_v2_dark_controlls.color.highEmphasis,
+                "background": natura_v2_dark_controlls.color.primary
             },
             "secondary": {
-                "label": consultoriaDeBeleza_light_controlls.color.highlight,
-                "background": consultoriaDeBeleza_light_controlls.color.secondary
+                "label": natura_v2_dark_controlls.color.highlight,
+                "background": natura_v2_dark_controlls.color.secondary
             },
             "success": {
-                "label": consultoriaDeBeleza_light_controlls.color.onSuccess,
-                "background": consultoriaDeBeleza_light_controlls.color.success,
+                "label": natura_v2_dark_controlls.color.onSuccess,
+                "background": natura_v2_dark_controlls.color.success,
             },
             "alert": {
-                "label": consultoriaDeBeleza_light_controlls.color.onAlert,
-                "background": consultoriaDeBeleza_light_controlls.color.alert,
+                "label": natura_v2_dark_controlls.color.onAlert,
+                "background": natura_v2_dark_controlls.color.alert,
             }
         }
     },
@@ -253,11 +253,11 @@ export const consultoriaDeBeleza_light_full_theme =
             "letterSpacing": 1.23,
             "lineHeight": 1.5,
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 500
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 500
             }
         },
@@ -265,24 +265,24 @@ export const consultoriaDeBeleza_light_full_theme =
         "contained": {
             "color": {
                 "enable": {
-                    "background": consultoriaDeBeleza_light_controlls.color.primary,
+                    "background": natura_v2_dark_controlls.color.primary,
                     "border": "#FFFFFF00",
-                    "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                    "label": natura_v2_dark_controlls.color.highEmphasis
                 },
                 "disable": {
                     "background": "#bbbbbb",
                     "border": "#FFFFFF00",
-                    "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                    "label": natura_v2_dark_controlls.color.highEmphasis
                 },
                 "hover": {
-                    "background": consultoriaDeBeleza_light_controlls.color.primaryDark,
+                    "background": natura_v2_dark_controlls.color.primaryDark,
                     "border": "#FFFFFF00",
-                    "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                    "label": natura_v2_dark_controlls.color.highEmphasis
                 },
                 "focus": {
-                    "background": consultoriaDeBeleza_light_controlls.color.primaryDarkest,
+                    "background": natura_v2_dark_controlls.color.primaryDarkest,
                     "border": "#FFFFFF00",
-                    "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                    "label": natura_v2_dark_controlls.color.highEmphasis
                 }
             }
         },
@@ -290,23 +290,23 @@ export const consultoriaDeBeleza_light_full_theme =
             "color": {
                 "enable": {
                     "background": "#FFFFFF00",
-                    "border": consultoriaDeBeleza_light_controlls.color.primary,
-                    "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                    "border": natura_v2_dark_controlls.color.primary,
+                    "label": natura_v2_dark_controlls.color.highEmphasis
                 },
                 "disable": {
                     "background": "#FFFFFF00",
-                    "border": consultoriaDeBeleza_light_controlls.color.lowEmphasis,
-                    "label": consultoriaDeBeleza_light_controlls.color.mediumEmphasis
+                    "border": natura_v2_dark_controlls.color.lowEmphasis,
+                    "label": natura_v2_dark_controlls.color.mediumEmphasis
                 },
                 "hover": {
                     "background": "#f1f3f5",
-                    "border": consultoriaDeBeleza_light_controlls.color.primary,
-                    "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                    "border": natura_v2_dark_controlls.color.primary,
+                    "label": natura_v2_dark_controlls.color.highEmphasis
                 },
                 "focus": {
                     "background": "#e9ecef",
-                    "border": consultoriaDeBeleza_light_controlls.color.primary,
-                    "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                    "border": natura_v2_dark_controlls.color.primary,
+                    "label": natura_v2_dark_controlls.color.highEmphasis
                 }
             }
         },
@@ -315,22 +315,22 @@ export const consultoriaDeBeleza_light_full_theme =
                 "enable": {
                     "background": "#FFFFFF00",
                     "border": "#FFFFFF00",
-                    "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                    "label": natura_v2_dark_controlls.color.highEmphasis
                 },
                 "disable": {
                     "background": "#FFFFFF00",
                     "border": "#FFFFFF00",
-                    "label": consultoriaDeBeleza_light_controlls.color.mediumEmphasis
+                    "label": natura_v2_dark_controlls.color.mediumEmphasis
                 },
                 "hover": {
                     "background": "#f1f3f5",
                     "border": "#FFFFFF00",
-                    "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                    "label": natura_v2_dark_controlls.color.highEmphasis
                 },
                 "focus": {
                     "background": "#e9ecef",
                     "border": "#FFFFFF00",
-                    "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                    "label": natura_v2_dark_controlls.color.highEmphasis
                 }
             }
         }
@@ -341,7 +341,7 @@ export const consultoriaDeBeleza_light_full_theme =
             "disable": 0
         },
         "color": {
-            "background": consultoriaDeBeleza_light_controlls.color.surface
+            "background": natura_v2_dark_controlls.color.surface
         }
     },
     "checkbox": {
@@ -350,11 +350,11 @@ export const consultoriaDeBeleza_light_full_theme =
             "letterSpacing": 0.22,
             "lineHeight": 1.5,
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 400
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             }
         },
@@ -363,11 +363,11 @@ export const consultoriaDeBeleza_light_full_theme =
     "counter": {
         "label": {
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 500
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             },
             "fontSize": 14,
@@ -376,11 +376,11 @@ export const consultoriaDeBeleza_light_full_theme =
         },
         "content": {
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 400
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             },
             "fontSize": 16,
@@ -395,11 +395,11 @@ export const consultoriaDeBeleza_light_full_theme =
             "letterSpacing": 0.24,
             "lineHeight": 1.25,
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 500
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             }
         },
@@ -408,23 +408,23 @@ export const consultoriaDeBeleza_light_full_theme =
             "letterSpacing": 0.51,
             "lineHeight": 1.5,
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 400
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             }
         },
         "borderRadius": 4,
         "color": {
-            "background": consultoriaDeBeleza_light_controlls.color.surface,
-            "title": consultoriaDeBeleza_light_controlls.color.highlight
+            "background": natura_v2_dark_controlls.color.surface,
+            "title": natura_v2_dark_controlls.color.highlight
         }
     },
     "divider": {
         "color": {
-            "background": consultoriaDeBeleza_light_controlls.color.lowEmphasis
+            "background": natura_v2_dark_controlls.color.lowEmphasis
         }
     },
     "expansionPanel": {
@@ -433,11 +433,11 @@ export const consultoriaDeBeleza_light_full_theme =
             "letterSpacing": 0.13,
             "lineHeight": 1.5,
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 500
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             }
         },
@@ -472,10 +472,10 @@ export const consultoriaDeBeleza_light_full_theme =
         "float": {
             "color": {
                 "enable": {
-                    "background": consultoriaDeBeleza_light_controlls.color.surface
+                    "background": natura_v2_dark_controlls.color.surface
                 },
                 "disable": {
-                    "background": consultoriaDeBeleza_light_controlls.color.lowEmphasis
+                    "background": natura_v2_dark_controlls.color.lowEmphasis
                 },
                 "hover": {
                     "background": "#f1f3f5"
@@ -488,16 +488,16 @@ export const consultoriaDeBeleza_light_full_theme =
         "overlay": {
             "color": {
                 "enable": {
-                    "background": consultoriaDeBeleza_light_controlls.color.highlight
+                    "background": natura_v2_dark_controlls.color.highlight
                 },
                 "disable": {
-                    "background": consultoriaDeBeleza_light_controlls.color.highlight
+                    "background": natura_v2_dark_controlls.color.highlight
                 },
                 "hover": {
-                    "background": consultoriaDeBeleza_light_controlls.color.highlight
+                    "background": natura_v2_dark_controlls.color.highlight
                 },
                 "focus": {
-                    "background": consultoriaDeBeleza_light_controlls.color.highlight
+                    "background": natura_v2_dark_controlls.color.highlight
                 }
             }
         }
@@ -514,19 +514,19 @@ export const consultoriaDeBeleza_light_full_theme =
             "letterSpacing": 0.51,
             "lineHeight": 1.5,
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 400
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             }
         },
         "color": {
             "label": {
                 "enable": {
-                    "default": consultoriaDeBeleza_light_controlls.color.link,
-                    "light": consultoriaDeBeleza_light_controlls.color.lowEmphasis
+                    "default": natura_v2_dark_controlls.color.link,
+                    "light": natura_v2_dark_controlls.color.lowEmphasis
                 }
             }
         }
@@ -538,11 +538,11 @@ export const consultoriaDeBeleza_light_full_theme =
                 "letterSpacing": 0.24,
                 "lineHeight": 1.25,
                 "primary": {
-                    "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                    "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                     "fontWeight": 500
                 },
                 "fallback": {
-                    "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                    "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                     "fontWeight": 400
                 }
             },
@@ -551,11 +551,11 @@ export const consultoriaDeBeleza_light_full_theme =
                 "letterSpacing": 0.22,
                 "lineHeight": 1.5,
                 "primary": {
-                    "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                    "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                     "fontWeight": 400
                 },
                 "fallback": {
-                    "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                    "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                     "fontWeight": 400
                 }
             }
@@ -566,11 +566,11 @@ export const consultoriaDeBeleza_light_full_theme =
                 "letterSpacing": 0.38,
                 "lineHeight": 1.5,
                 "primary": {
-                    "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                    "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                     "fontWeight": 400
                 },
                 "fallback": {
-                    "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                    "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                     "fontWeight": 400
                 }
             },
@@ -579,11 +579,11 @@ export const consultoriaDeBeleza_light_full_theme =
                 "letterSpacing": 0.22,
                 "lineHeight": 1.5,
                 "primary": {
-                    "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                    "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                     "fontWeight": 400
                 },
                 "fallback": {
-                    "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                    "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                     "fontWeight": 400
                 }
             }
@@ -603,8 +603,8 @@ export const consultoriaDeBeleza_light_full_theme =
             "borderRadius": 32
         },
         "color": {
-            "stroke": consultoriaDeBeleza_light_controlls.color.primary,
-            "layer": consultoriaDeBeleza_light_controlls.color.surface,
+            "stroke": natura_v2_dark_controlls.color.primary,
+            "layer": natura_v2_dark_controlls.color.surface,
         }
     },
     "radioButton": {
@@ -613,27 +613,27 @@ export const consultoriaDeBeleza_light_full_theme =
             "letterSpacing": 0.22,
             "lineHeight": 1.5,
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 400
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             }
         },
         "borderRadius": 12,
         "color": {
             "select": {
-                "border": consultoriaDeBeleza_light_controlls.color.primary,
-                "content": consultoriaDeBeleza_light_controlls.color.primary
+                "border": natura_v2_dark_controlls.color.primary,
+                "content": natura_v2_dark_controlls.color.primary
             },
             "unselect": {
-                "border": consultoriaDeBeleza_light_controlls.color.highlight,
-                "content": consultoriaDeBeleza_light_controlls.color.highlight
+                "border": natura_v2_dark_controlls.color.highlight,
+                "content": natura_v2_dark_controlls.color.highlight
             },
             "disable": {
-                "border": consultoriaDeBeleza_light_controlls.color.lowEmphasis,
-                "content": consultoriaDeBeleza_light_controlls.color.lowEmphasis
+                "border": natura_v2_dark_controlls.color.lowEmphasis,
+                "content": natura_v2_dark_controlls.color.lowEmphasis
             }
         }
     },
@@ -644,11 +644,11 @@ export const consultoriaDeBeleza_light_full_theme =
                 "letterSpacing": 0.22,
                 "lineHeight": 1.5,
                 "primary": {
-                    "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                    "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                     "fontWeight": 400
                 },
                 "fallback": {
-                    "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                    "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                     "fontWeight": 400
                 }
             }
@@ -659,11 +659,11 @@ export const consultoriaDeBeleza_light_full_theme =
                 "letterSpacing": 0.38,
                 "lineHeight": 1.5,
                 "primary": {
-                    "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                    "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                     "fontWeight": 400
                 },
                 "fallback": {
-                    "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                    "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                     "fontWeight": 400
                 }
             }
@@ -675,11 +675,11 @@ export const consultoriaDeBeleza_light_full_theme =
             "letterSpacing": 0.38,
             "lineHeight": 1.5,
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 400
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             }
         },
@@ -687,50 +687,50 @@ export const consultoriaDeBeleza_light_full_theme =
             "color": {
                 "enable": {
                     "primary": {
-                        "background": consultoriaDeBeleza_light_controlls.color.primary,
+                        "background": natura_v2_dark_controlls.color.primary,
                         "border": "#FFFFFF00",
-                        "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                        "label": natura_v2_dark_controlls.color.highEmphasis
                     },
                     "neutral": {
-                        "background": consultoriaDeBeleza_light_controlls.color.surface,
+                        "background": natura_v2_dark_controlls.color.surface,
                         "border": "#FFFFFF00",
-                        "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                        "label": natura_v2_dark_controlls.color.highEmphasis
                     }
                 },
                 "disable": {
                     "primary": {
-                        "background": consultoriaDeBeleza_light_controlls.color.lowEmphasis,
+                        "background": natura_v2_dark_controlls.color.lowEmphasis,
                         "border": "#FFFFFF00",
-                        "label": consultoriaDeBeleza_light_controlls.color.mediumEmphasis
+                        "label": natura_v2_dark_controlls.color.mediumEmphasis
                     },
                     "neutral": {
-                        "background": consultoriaDeBeleza_light_controlls.color.lowEmphasis,
+                        "background": natura_v2_dark_controlls.color.lowEmphasis,
                         "border": "#FFFFFF00",
-                        "label": consultoriaDeBeleza_light_controlls.color.mediumEmphasis
+                        "label": natura_v2_dark_controlls.color.mediumEmphasis
                     }
                 },
                 "hover": {
                     "primary": {
-                        "background": consultoriaDeBeleza_light_controlls.color.primaryDark,
+                        "background": natura_v2_dark_controlls.color.primaryDark,
                         "border": "#FFFFFF00",
-                        "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                        "label": natura_v2_dark_controlls.color.highEmphasis
                     },
                     "neutral": {
                         "background": "#f1f3f5",
                         "border": "#FFFFFF00",
-                        "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                        "label": natura_v2_dark_controlls.color.highEmphasis
                     }
                 },
                 "focus": {
                     "primary": {
-                        "background": consultoriaDeBeleza_light_controlls.color.primaryDarkest,
+                        "background": natura_v2_dark_controlls.color.primaryDarkest,
                         "border": "#FFFFFF00",
-                        "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                        "label": natura_v2_dark_controlls.color.highEmphasis
                     },
                     "neutral": {
                         "background": "#e9ecef",
                         "border": "#FFFFFF00",
-                        "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                        "label": natura_v2_dark_controlls.color.highEmphasis
                     }
                 }
             }
@@ -740,49 +740,49 @@ export const consultoriaDeBeleza_light_full_theme =
                 "enable": {
                     "primary": {
                         "background": "#FFFFFF00",
-                        "border": consultoriaDeBeleza_light_controlls.color.primary,
-                        "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                        "border": natura_v2_dark_controlls.color.primary,
+                        "label": natura_v2_dark_controlls.color.highEmphasis
                     },
                     "neutral": {
                         "background": "#FFFFFF00",
-                        "border": consultoriaDeBeleza_light_controlls.color.lowEmphasis,
-                        "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                        "border": natura_v2_dark_controlls.color.lowEmphasis,
+                        "label": natura_v2_dark_controlls.color.highEmphasis
                     }
                 },
                 "disable": {
                     "primary": {
-                        "background": consultoriaDeBeleza_light_controlls.color.highlight,
-                        "border": consultoriaDeBeleza_light_controlls.color.lowEmphasis,
-                        "label": consultoriaDeBeleza_light_controlls.color.lowEmphasis,
+                        "background": natura_v2_dark_controlls.color.highlight,
+                        "border": natura_v2_dark_controlls.color.lowEmphasis,
+                        "label": natura_v2_dark_controlls.color.lowEmphasis,
                     },
                     "neutral": {
-                        "background": consultoriaDeBeleza_light_controlls.color.highlight,
-                        "border": consultoriaDeBeleza_light_controlls.color.lowEmphasis,
-                        "label": consultoriaDeBeleza_light_controlls.color.lowEmphasis,
+                        "background": natura_v2_dark_controlls.color.highlight,
+                        "border": natura_v2_dark_controlls.color.lowEmphasis,
+                        "label": natura_v2_dark_controlls.color.lowEmphasis,
                     }
                 },
                 "hover": {
                     "primary": {
                         "background": "#f1f3f5",
-                        "border": consultoriaDeBeleza_light_controlls.color.primaryDark,
-                        "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                        "border": natura_v2_dark_controlls.color.primaryDark,
+                        "label": natura_v2_dark_controlls.color.highEmphasis
                     },
                     "neutral": {
                         "background": "#f1f3f5",
-                        "border": consultoriaDeBeleza_light_controlls.color.mediumEmphasis,
-                        "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                        "border": natura_v2_dark_controlls.color.mediumEmphasis,
+                        "label": natura_v2_dark_controlls.color.highEmphasis
                     }
                 },
                 "focus": {
                     "primary": {
                         "background": "#e9ecef",
-                        "border": consultoriaDeBeleza_light_controlls.color.primaryDark,
-                        "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                        "border": natura_v2_dark_controlls.color.primaryDark,
+                        "label": natura_v2_dark_controlls.color.highEmphasis
                     },
                     "neutral": {
                         "background": "#e9ecef",
-                        "border": consultoriaDeBeleza_light_controlls.color.mediumEmphasis,
-                        "label": consultoriaDeBeleza_light_controlls.color.highEmphasis
+                        "border": natura_v2_dark_controlls.color.mediumEmphasis,
+                        "label": natura_v2_dark_controlls.color.highEmphasis
                     }
                 }
             }
@@ -795,11 +795,11 @@ export const consultoriaDeBeleza_light_full_theme =
             "letterSpacing": 0.22,
             "lineHeight": 1.5,
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 400
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             }
         },
@@ -811,11 +811,11 @@ export const consultoriaDeBeleza_light_full_theme =
             "letterSpacing": 1.23,
             "lineHeight": 1.5,
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 500
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             }
         }
@@ -826,11 +826,11 @@ export const consultoriaDeBeleza_light_full_theme =
             "letterSpacing": 0.38,
             "lineHeight": 1.25,
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 400
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             }
         },
@@ -848,31 +848,31 @@ export const consultoriaDeBeleza_light_full_theme =
         },
         "color": {
             "background": {
-                "primary": consultoriaDeBeleza_light_controlls.color.primary,
-                "secondary": consultoriaDeBeleza_light_controlls.color.secondary,
-                "success": consultoriaDeBeleza_light_controlls.color.success,
-                "alert": consultoriaDeBeleza_light_controlls.color.alert,
-                "warning": consultoriaDeBeleza_light_controlls.color.warning,
-                "link": consultoriaDeBeleza_light_controlls.color.link
+                "primary": natura_v2_dark_controlls.color.primary,
+                "secondary": natura_v2_dark_controlls.color.secondary,
+                "success": natura_v2_dark_controlls.color.success,
+                "alert": natura_v2_dark_controlls.color.alert,
+                "warning": natura_v2_dark_controlls.color.warning,
+                "link": natura_v2_dark_controlls.color.link
             },
             "label": {
-                "primary": consultoriaDeBeleza_light_controlls.color.highEmphasis,
-                "secondary": consultoriaDeBeleza_light_controlls.color.highlight,
-                "success": consultoriaDeBeleza_light_controlls.color.onSuccess,
-                "alert": consultoriaDeBeleza_light_controlls.color.onAlert,
-                "warning": consultoriaDeBeleza_light_controlls.color.onWarning,
-                "link": consultoriaDeBeleza_light_controlls.color.onLink
+                "primary": natura_v2_dark_controlls.color.highEmphasis,
+                "secondary": natura_v2_dark_controlls.color.highlight,
+                "success": natura_v2_dark_controlls.color.onSuccess,
+                "alert": natura_v2_dark_controlls.color.onAlert,
+                "warning": natura_v2_dark_controlls.color.onWarning,
+                "link": natura_v2_dark_controlls.color.onLink
             }
         }
     },
     "textField": {
         "label": {
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 500
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             },
             "fontSize": 14,
@@ -881,11 +881,11 @@ export const consultoriaDeBeleza_light_full_theme =
         },
         "content": {
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 400
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             },
             "fontSize": 16,
@@ -894,11 +894,11 @@ export const consultoriaDeBeleza_light_full_theme =
         },
         "helperText": {
             "primary": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
+                "fontFamily": natura_v2_dark_controlls.typography.fontFamily.primary,
                 "fontWeight": 400
             },
             "fallback": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
                 "fontWeight": 400
             },
             "fontSize": 12,
@@ -1041,35 +1041,35 @@ export const consultoriaDeBeleza_light_full_theme =
             "large": 2
         },
         "fontFamily": {
-            "primary": consultoriaDeBeleza_light_controlls.typography.fontFamily.primary,
-            "secondary": consultoriaDeBeleza_light_controlls.typography.fontFamily.secondary,
-            "branding": consultoriaDeBeleza_light_controlls.typography.fontFamily.branding,
-            "code": consultoriaDeBeleza_light_controlls.typography.fontFamily.code
+            "primary": natura_v2_dark_controlls.typography.fontFamily.primary,
+            "secondary": natura_v2_dark_controlls.typography.fontFamily.secondary,
+            "branding": natura_v2_dark_controlls.typography.fontFamily.branding,
+            "code": natura_v2_dark_controlls.typography.fontFamily.code
         },
         "fontWeight": {
             "regular": 400,
             "medium": 500
         },
         "display": {
-            "fontFamily": consultoriaDeBeleza_light_controlls.typography.display.fontFamily,
+            "fontFamily": natura_v2_dark_controlls.typography.display.fontFamily,
             "fontWeight": 700
         },
         "headline": {
-            "fontFamily": consultoriaDeBeleza_light_controlls.typography.headline.fontFamily,
+            "fontFamily": natura_v2_dark_controlls.typography.headline.fontFamily,
             "fontWeight": 500
         },
         "body": {
             "regular": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.body.regular.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.body.regular.fontFamily,
                 "fontWeight": 400
             },
             "bold": {
-                "fontFamily": consultoriaDeBeleza_light_controlls.typography.body.bold.fontFamily,
+                "fontFamily": natura_v2_dark_controlls.typography.body.bold.fontFamily,
                 "fontWeight": 700
             }
         },
         "fallback": {
-            "fontFamily": consultoriaDeBeleza_light_controlls.typography.fallback.fontFamily,
+            "fontFamily": natura_v2_dark_controlls.typography.fallback.fontFamily,
             "fontWeight": 400
         }
     },
@@ -1094,40 +1094,40 @@ export const consultoriaDeBeleza_light_full_theme =
         "neutral700": "#495057",
         "neutral800": "#343a40",
         "neutral900": "#212529",
-        "primary": consultoriaDeBeleza_light_controlls.color.primary,
-        "onPrimary": consultoriaDeBeleza_light_controlls.color.onPrimary,
-        "primaryLight": consultoriaDeBeleza_light_controlls.color.primaryLight,
-        "onPrimaryLight": consultoriaDeBeleza_light_controlls.color.onPrimaryLight,
-        "primaryLightest": consultoriaDeBeleza_light_controlls.color.primaryLightest,
-        "onPrimaryLightest": consultoriaDeBeleza_light_controlls.color.onPrimaryLightest,
-        "primaryDark": consultoriaDeBeleza_light_controlls.color.primaryDark,
-        "onPrimaryDark": consultoriaDeBeleza_light_controlls.color.onPrimaryDark,
-        "primaryDarkest": consultoriaDeBeleza_light_controlls.color.primaryDarkest,
-        "onPrimaryDarkest": consultoriaDeBeleza_light_controlls.color.onPrimaryDarkest,
-        "secondary": consultoriaDeBeleza_light_controlls.color.secondary,
-        "onSecondary": consultoriaDeBeleza_light_controlls.color.onSecondary,
-        "secondaryLight": consultoriaDeBeleza_light_controlls.color.secondaryLight,
-        "onSecondaryLight": consultoriaDeBeleza_light_controlls.color.onSecondaryLight,
-        "secondaryDark": consultoriaDeBeleza_light_controlls.color.secondaryDark,
-        "onSecondaryDark": consultoriaDeBeleza_light_controlls.color.onSecondaryDark,
-        "secondaryDarkest": consultoriaDeBeleza_light_controlls.color.secondaryDarkest,
-        "onSecondaryDarkest": consultoriaDeBeleza_light_controlls.color.onSecondaryDarkest,
-        "background": consultoriaDeBeleza_light_controlls.color.background,
-        "onBackground": consultoriaDeBeleza_light_controlls.color.onBackground,
-        "surface": consultoriaDeBeleza_light_controlls.color.surface,
-        "onSurface": consultoriaDeBeleza_light_controlls.color.onSurface,
-        "highlight": consultoriaDeBeleza_light_controlls.color.highlight,
-        "highEmphasis": consultoriaDeBeleza_light_controlls.color.highEmphasis,
-        "mediumEmphasis": consultoriaDeBeleza_light_controlls.color.mediumEmphasis,
-        "lowEmphasis": consultoriaDeBeleza_light_controlls.color.lowEmphasis,
-        "link": consultoriaDeBeleza_light_controlls.color.link,
-        "onLink": consultoriaDeBeleza_light_controlls.color.onLink,
-        "success": consultoriaDeBeleza_light_controlls.color.success,
-        "onSuccess": consultoriaDeBeleza_light_controlls.color.onSuccess,
-        "warning": consultoriaDeBeleza_light_controlls.color.warning,
-        "onWarning": consultoriaDeBeleza_light_controlls.color.onWarning,
-        "alert": consultoriaDeBeleza_light_controlls.color.alert,
-        "onAlert": consultoriaDeBeleza_light_controlls.color.onAlert,
+        "primary": natura_v2_dark_controlls.color.primary,
+        "onPrimary": natura_v2_dark_controlls.color.onPrimary,
+        "primaryLight": natura_v2_dark_controlls.color.primaryLight,
+        "onPrimaryLight": natura_v2_dark_controlls.color.onPrimaryLight,
+        "primaryLightest": natura_v2_dark_controlls.color.primaryLightest,
+        "onPrimaryLightest": natura_v2_dark_controlls.color.onPrimaryLightest,
+        "primaryDark": natura_v2_dark_controlls.color.primaryDark,
+        "onPrimaryDark": natura_v2_dark_controlls.color.onPrimaryDark,
+        "primaryDarkest": natura_v2_dark_controlls.color.primaryDarkest,
+        "onPrimaryDarkest": natura_v2_dark_controlls.color.onPrimaryDarkest,
+        "secondary": natura_v2_dark_controlls.color.secondary,
+        "onSecondary": natura_v2_dark_controlls.color.onSecondary,
+        "secondaryLight": natura_v2_dark_controlls.color.secondaryLight,
+        "onSecondaryLight": natura_v2_dark_controlls.color.onSecondaryLight,
+        "secondaryDark": natura_v2_dark_controlls.color.secondaryDark,
+        "onSecondaryDark": natura_v2_dark_controlls.color.onSecondaryDark,
+        "secondaryDarkest": natura_v2_dark_controlls.color.secondaryDarkest,
+        "onSecondaryDarkest": natura_v2_dark_controlls.color.onSecondaryDarkest,
+        "background": natura_v2_dark_controlls.color.background,
+        "onBackground": natura_v2_dark_controlls.color.onBackground,
+        "surface": natura_v2_dark_controlls.color.surface,
+        "onSurface": natura_v2_dark_controlls.color.onSurface,
+        "highlight": natura_v2_dark_controlls.color.highlight,
+        "highEmphasis": natura_v2_dark_controlls.color.highEmphasis,
+        "mediumEmphasis": natura_v2_dark_controlls.color.mediumEmphasis,
+        "lowEmphasis": natura_v2_dark_controlls.color.lowEmphasis,
+        "link": natura_v2_dark_controlls.color.link,
+        "onLink": natura_v2_dark_controlls.color.onLink,
+        "success": natura_v2_dark_controlls.color.success,
+        "onSuccess": natura_v2_dark_controlls.color.onSuccess,
+        "warning": natura_v2_dark_controlls.color.warning,
+        "onWarning": natura_v2_dark_controlls.color.onWarning,
+        "alert": natura_v2_dark_controlls.color.alert,
+        "onAlert": natura_v2_dark_controlls.color.onAlert,
     },
     "asset": {
         "font": {
@@ -1147,7 +1147,7 @@ export const consultoriaDeBeleza_light_full_theme =
                     "width": 256,
                     "height": 55
                 },
-                "b": { // secondary fill=\"#FF6B0B\
+                "b": {
                     "file": "<svg width=\"256\" height=\"192\" viewBox=\"0 0 256 192\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><g clip-path=\"url(#clip0)\"><path d=\"M22.523 145.558c15.385 0 22.523 9.723 22.523 19.077v20.677h-9.723v-20.677c0-5.908-3.446-15.385-12.8-15.385-9.477 0-12.8 9.477-12.8 15.385v20.677H0v-20.677c0-9.354 7.138-19.077 22.523-19.077zM156.431 185.927c-15.385 0-22.523-9.723-22.523-19.077v-20.676h9.723v20.676c0 5.908 3.446 15.385 12.8 15.385 9.354 0 12.8-9.477 12.8-15.385v-20.676h9.723v20.676c0 9.354-7.139 19.077-22.523 19.077zM84.308 182.481c-2.093 1.6-4.677 2.831-7.877 3.323-9.846 1.6-23.508-4.923-24-19.2-.493-14.646 13.907-20.8 23.261-20.554 15.877.37 21.539 12.431 21.539 19.2v20.062h-9.846v-19.938c0-4.308-1.97-15.508-12.062-15.754-9.846-.246-13.046 8.861-13.046 15.63 0 4.308.984 15.016 12.308 15.631 3.446.246 8.369-.738 9.723-1.969v3.569zM127.877 191.097c-1.354.492-4.923 1.23-8.985.246-4.554-1.231-12.184-3.2-12.184-18.954v-43.446h9.846v17.231h8.984v6.03h-8.984s.246 12.185 0 22.031c-.246 8.739 2.461 11.815 4.431 12.8 2.338 1.231 6.276.739 6.769.492v3.57h.123zM188.062 163.404c0-9.6 5.046-16.492 13.784-17.354 6.154-.615 8.492.493 8.492.493v3.938s-3.2-.861-6.892.123c-4.061 1.231-5.538 7.262-5.538 9.354v25.6h-9.846v-22.154zM243.077 182.481c-2.092 1.6-4.677 2.831-7.877 3.323-9.846 1.6-23.508-4.923-24-19.2-.492-14.646 13.908-20.8 23.262-20.554 15.876.37 21.538 12.431 21.538 19.2v20.062h-9.723v-19.938c0-4.308-1.969-15.508-12.062-15.754-9.846-.246-13.046 8.861-13.046 15.63 0 4.308.985 15.016 12.308 15.631 3.446.246 8.369-.738 9.723-1.969v3.569h-.123z\" fill=\"#FF6B0B\"/><path d=\"M175.754 35.528c-1.6 7.261-4.677 15.015-5.539 16.985-.123.369 0 .369.247.246 1.846-.862 9.846-4.8 18.338-8.493 8.492-3.569 24.369-3.569 20.308 14.031-4.062 17.477-24.616 27.816-26.708 28.923-1.969.985-4.431 2.093-5.415 2.708-.37.246-.616.492.123.738 2.215.616 9.477.123 9.477 3.2-.123 3.323-5.416 8.739-19.57 14.77-15.384 6.523-28.061 3.569-31.261 2.83-.123 0-.123 0-.246.123-.862.862-8 7.754-28.185 4.308-14.523-2.461-18.092-3.938-21.415-7.877-.985-1.108-1.6-3.2-.37-5.661.37-.616.37-.985-.123-1.108-21.907-4.554-35.2-18.339-40.123-27.077-2.461-4.43-1.723-7.385-.492-9.23 1.723-2.585 7.63-2.832 13.662-1.355 6.769 1.724 10.461 2.708 11.815 3.077.492.123.492 0 .246-.369-1.723-2.092-7.63-9.6-10.708-14.4-5.046-7.877-11.323-28.923 5.17-37.538C83.323 4.882 99.2 21.62 102.769 26.05c3.077 3.815 9.354 12.185 9.846 13.17.739 1.353 1.231.122 1.231.122s4.308-15.507 8.123-22.646c6.523-12.43 20.185-18.461 32-16.246 22.769 4.062 23.631 26.708 21.785 35.077zm-23.016-18.092c-12.8-3.939-20.676 5.538-24.369 17.477-2.954 9.6-3.569 12.184-5.292 17.23-2.462 7.016-8.369 7.631-12.923 2.093-5.292-6.4-12.185-15.754-16.123-20.308-5.17-6.03-17.6-11.077-23.877-3.323-9.477 11.692 3.077 24.861 9.723 32.738 4.554 5.539 10.215 9.354 8.37 12.554-.616 1.23-2.093 1.6-4.062 1.6-4.677 0-19.939-4.184-23.508-4.923-3.077-.615-5.292-.37-6.154 1.846-.985 2.708 2.83 10.462 12.8 15.631 9.846 5.046 25.846 7.63 27.446 8 5.785 1.23 4.677 4.061 3.323 5.538-1.353 1.477-2.954 2.339-2.584 3.816.861 3.692 8.738 4.431 13.415 5.169 4.554.738 10.462 1.108 14.646-.492 4.062-1.6 4.308-3.816 7.016-4.923 3.692-1.477 5.046-.123 13.046 1.353 5.169.985 14.154-.246 19.2-1.846 9.354-3.077 13.169-6.03 13.169-7.507 0-1.108-1.6-1.6-3.323-1.847-1.969-.246-8.739-1.353-10.954-2.83-2.338-1.477-.615-4.062 4.185-6.031 4.677-1.846 19.815-8.123 25.6-13.292 5.661-5.047 11.077-13.539 6.277-18.462-4.677-4.923-13.047.123-17.6 2.215-6.031 2.831-15.877 7.877-19.2 8.616-2.954.615-8.37.492-5.908-6.154 3.2-8.246 4.677-13.292 6.646-18.215 2.462-6.031 6.031-21.17-8.985-25.723z\" fill=\"url(#a)\"/></g><defs><pattern id=\"a\" patternContentUnits=\"userSpaceOnUse\" width=\"178\" height=\"119\" patternUnits=\"userSpaceOnUse\" x=\"38\"><use xlink:href=\"#b\"/></pattern><image id=\"b\" width=\"178\" height=\"119\" xlink:href=\"https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/natura-b-official-embed-image-0.png\"/></defs></svg>",
                     "width": 256,
                     "height": 192
@@ -1180,4 +1180,5 @@ export const consultoriaDeBeleza_light_full_theme =
         "hugeX": "0 16px 24px 0 rgba(0, 0, 0, 0.14)",
         "hugeXX": "0 24px 38px 0 rgba(0, 0, 0, 0.14)"
     }
-}
+};
+//# sourceMappingURL=theme_natura_v2_mock_dark.js.map
