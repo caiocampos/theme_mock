@@ -1,4 +1,3 @@
-"use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.natura_v2_dark_full_theme = void 0;
 const natura_v2_dark_controlls = {

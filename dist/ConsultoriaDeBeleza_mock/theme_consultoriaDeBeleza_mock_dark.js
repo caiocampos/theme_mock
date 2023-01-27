@@ -1,4 +1,3 @@
-"use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.consultoriaDeBeleza_dark_full_theme = void 0;
 const consultoriaDeBeleza_dark_controlls = {
