@@ -1,3 +1,4 @@
+export { Theme } from "./Themes/ThemesTypes";
 export { parseTheme } from "./Themes/parseTheme";
 export { natura_v2_light_full_theme } from "./natura_v2_mock_theme/theme_natura_v2_mock_light";
 export { natura_v2_dark_full_theme } from "./natura_v2_mock_theme/theme_natura_v2_mock_dark";
